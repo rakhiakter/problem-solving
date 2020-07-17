@@ -1,4 +1,4 @@
-//Feet to Mile
+//feetToMile
 function feetToMile(feet) {
     let mile = feet * 1 / 5280;
     return mile;
@@ -7,7 +7,8 @@ let totalMile = feetToMile(576);
 totalMile = totalMile.toFixed(3);
 console.log(totalMile);
 
-//Calculation of wood
+//woodCalculation
+
 function woodCalculator(chair, table, bed) {
     let woodOfchair = chair * 1;
     let woodOftable = table * 3;
@@ -18,7 +19,8 @@ function woodCalculator(chair, table, bed) {
 var totalNeedOfWood = woodCalculator(2, 3, 4);
 console.log(totalNeedOfWood);
 
-//Total amount of brick
+//brickCalculator
+
 function brickCalculator(n) {
     let totalFeet;
     if (n < 0) {
@@ -46,10 +48,10 @@ function brickCalculator(n) {
 let bricks = brickCalculator(17);
 console.log(bricks);
 
-//tinyFirend
+//tinyFriend
 
 
-function tinyFirend(names){
+function tinyFriend(names){
     var min = names [0];
  for(var i = 0; i < names.length; i++){
     var nextName = names [i];
